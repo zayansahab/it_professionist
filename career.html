@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career Path | IT Professionist</title>
+    <link rel="shortcut icon" href="images/ChatGPT Image Jul 15, 2025, 02_06_53 PM.png" type="image/x-icon">
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html" data-aos="fade-right">
+          <img src="images/ChatGPT Image Jul 15, 2025, 02_06_53 PM.png" alt="Logo" width="40" height="40" class="me-2">
+          <span class="fw-bold text-primary">IT Professionist</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="career.html">Career Path</a></li>
+            <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+
+          <!-- Theme Switch -->
+          <div class="form-check form-switch ms-3">
+            <input class="form-check-input" type="checkbox" id="themeSwitch">
+            <label class="form-check-label" for="themeSwitch">Dark Mode</label>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ✅ Header -->
+    <header class="py-5 bg-light text-center" data-aos="zoom-in">
+      <div class="container">
+        <h1 class="fw-bold">Your IT Career Roadmap</h1>
+        <p class="lead">Step-by-step guide to start and grow in the tech world.</p>
+      </div>
+    </header>
+
+    <!-- ✅ Career Steps -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center" data-aos="fade-up">Follow These Key Stages</h2>
+        <div class="row g-4">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>📘 Step 1: Learn the Basics</h4>
+              <p>Start with fundamentals: computer literacy, internet concepts, file systems, typing, and basic troubleshooting.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>💻 Step 2: Pick a Path</h4>
+              <p>Choose a focus: software development, networking, cybersecurity, cloud computing, or data science.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>🧰 Step 3: Learn Tools & Technologies</h4>
+              <p>Master tools related to your path: IDEs, operating systems, databases, Git, servers, etc.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>🎓 Step 4: Get Certified</h4>
+              <p>Obtain certifications like CompTIA, CCNA, AWS, or Google IT — they validate your knowledge.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>🔨 Step 5: Build Real Projects</h4>
+              <p>Apply your knowledge: contribute to GitHub, build websites, labs, or simulate networks.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="border rounded p-4 h-100 shadow-sm">
+              <h4>🚀 Step 6: Apply for Jobs / Freelance</h4>
+              <p>Create a resume, build a LinkedIn profile, apply for internships, and take freelance gigs to grow.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p class="mb-1">© 2025 IT Professionist. All rights reserved.</p>
+        <small>Built for future-ready tech professionals.</small>
+      </div>
+    </footer>
+
+    <!-- ✅ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ✅ AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- ✅ Theme Toggle -->
+    <script>
+      const themeSwitch = document.getElementById('themeSwitch');
+      const htmlElement = document.documentElement;
+      themeSwitch.addEventListener('change', () => {
+        const newTheme = themeSwitch.checked ? 'dark' : 'light';
+        htmlElement.setAttribute('data-bs-theme', newTheme);
+      });
+    </script>
+  </body>
+</html>
